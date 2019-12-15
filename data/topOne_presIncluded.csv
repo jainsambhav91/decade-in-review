@@ -1,0 +1,481 @@
+"year","month","category","tags","name2","date"
+2010,"January","Arts_Culture",6," jay leno",2010-01-01
+2010,"January","Business_Tech",28," barack obama",2010-01-01
+2010,"January","OpEd_Opinion",83," barack obama",2010-01-01
+2010,"January","World",17," barack obama",2010-01-01
+2010,"February","Arts_Culture",4," william kentridge",2010-02-01
+2010,"February","Business_Tech",17," barack obama",2010-02-01
+2010,"February","OpEd_Opinion",51," barack obama",2010-02-01
+2010,"February","World",15," barack obama",2010-02-01
+2010,"March","Arts_Culture",5," marina abramovic",2010-03-01
+2010,"March","Business_Tech",17," barack obama",2010-03-01
+2010,"March","OpEd_Opinion",70," barack obama",2010-03-01
+2010,"March","World",32," barack obama",2010-03-01
+2010,"April","Arts_Culture",7," james levine",2010-04-01
+2010,"April","Business_Tech",17," barack obama",2010-04-01
+2010,"April","OpEd_Opinion",65," barack obama",2010-04-01
+2010,"April","World",33," barack obama",2010-04-01
+2010,"May","Arts_Culture",6," carol vogel",2010-05-01
+2010,"May","Business_Tech",10," barack obama",2010-05-01
+2010,"May","OpEd_Opinion",48," barack obama",2010-05-01
+2010,"May","World",19," barack obama",2010-05-01
+2010,"June","Arts_Culture",5," alan gilbert",2010-06-01
+2010,"June","Business_Tech",17," barack obama",2010-06-01
+2010,"June","OpEd_Opinion",72," barack obama",2010-06-01
+2010,"June","World",23," barack obama",2010-06-01
+2010,"July","Arts_Culture",4," henri matisse",2010-07-01
+2010,"July","Business_Tech",12," barack obama",2010-07-01
+2010,"July","OpEd_Opinion",48," barack obama",2010-07-01
+2010,"July","World",18," barack obama",2010-07-01
+2010,"August","Arts_Culture",3," alexei ratmansky",2010-08-01
+2010,"August","Business_Tech",7," barack obama",2010-08-01
+2010,"August","OpEd_Opinion",60," barack obama",2010-08-01
+2010,"August","World",29," barack obama",2010-08-01
+2010,"September","Arts_Culture",6," robert lepage",2010-09-01
+2010,"September","Business_Tech",20," barack obama",2010-09-01
+2010,"September","OpEd_Opinion",60," barack obama",2010-09-01
+2010,"September","World",23," barack obama",2010-09-01
+2010,"October","Arts_Culture",4," valery gergiev",2010-10-01
+2010,"October","Business_Tech",9," barack obama",2010-10-01
+2010,"October","OpEd_Opinion",62," barack obama",2010-10-01
+2010,"October","World",18," barack obama",2010-10-01
+2010,"November","Arts_Culture",3," annesophie mutter",2010-11-01
+2010,"November","Business_Tech",14," ben s bernanke",2010-11-01
+2010,"November","OpEd_Opinion",69," barack obama",2010-11-01
+2010,"November","World",51," barack obama",2010-11-01
+2010,"December","Arts_Culture",6," david wojnarowicz",2010-12-01
+2010,"December","Business_Tech",5," bernard l madoff",2010-12-01
+2010,"December","OpEd_Opinion",57," barack obama",2010-12-01
+2010,"December","World",31," barack obama",2010-12-01
+2011,"January","Arts_Culture",10," colin firth",2011-01-01
+2011,"January","Business_Tech",11," barack obama",2011-01-01
+2011,"January","OpEd_Opinion",71," barack obama",2011-01-01
+2011,"January","World",49," hosni mubarak",2011-01-01
+2011,"February","Arts_Culture",16," james franco",2011-02-01
+2011,"February","Business_Tech",5," bernard l madoff",2011-02-01
+2011,"February","OpEd_Opinion",52," hosni mubarak",2011-02-01
+2011,"February","World",118," hosni mubarak",2011-02-01
+2011,"March","Arts_Culture",9," james levine",2011-03-01
+2011,"March","Business_Tech",4," barack obama",2011-03-01
+2011,"March","OpEd_Opinion",50," barack obama",2011-03-01
+2011,"March","World",126," muammar el qaddafi",2011-03-01
+2011,"April","Arts_Culture",6,"ai weiwei ",2011-04-01
+2011,"April","Business_Tech",10," barack obama",2011-04-01
+2011,"April","OpEd_Opinion",59," barack obama",2011-04-01
+2011,"April","World",75," muammar el qaddafi",2011-04-01
+2011,"May","Arts_Culture",7,"lady gaga ",2011-05-01
+2011,"May","Business_Tech",15," dominique strausskahn",2011-05-01
+2011,"May","OpEd_Opinion",57," barack obama",2011-05-01
+2011,"May","World",100," osama bin laden",2011-05-01
+2011,"June","Arts_Culture",11,"lady gaga ",2011-06-01
+2011,"June","Business_Tech",8," christine lagarde",2011-06-01
+2011,"June","OpEd_Opinion",44," barack obama",2011-06-01
+2011,"June","World",42," muammar el qaddafi",2011-06-01
+2011,"July","Arts_Culture",8," amy winehouse",2011-07-01
+2011,"July","Business_Tech",10," rupert murdoch",2011-07-01
+2011,"July","OpEd_Opinion",79," barack obama",2011-07-01
+2011,"July","World",53," rupert murdoch",2011-07-01
+2011,"August","Arts_Culture",8," kanye west",2011-08-01
+2011,"August","Business_Tech",14," steven p jobs",2011-08-01
+2011,"August","OpEd_Opinion",62," barack obama",2011-08-01
+2011,"August","World",79," muammar el qaddafi",2011-08-01
+2011,"September","Arts_Culture",7," james levine",2011-09-01
+2011,"September","Business_Tech",11," barack obama",2011-09-01
+2011,"September","OpEd_Opinion",88," barack obama",2011-09-01
+2011,"September","World",57," muammar el qaddafi",2011-09-01
+2011,"October","Arts_Culture",7,"adele  ",2011-10-01
+2011,"October","Business_Tech",33," steven p jobs",2011-10-01
+2011,"October","OpEd_Opinion",47," barack obama",2011-10-01
+2011,"October","World",65," muammar el qaddafi",2011-10-01
+2011,"November","Arts_Culture",8,"adele  ",2011-11-01
+2011,"November","Business_Tech",6," michael c woodford",2011-11-01
+2011,"November","OpEd_Opinion",52," barack obama",2011-11-01
+2011,"November","World",29," bashar al assad",2011-11-01
+2011,"December","Arts_Culture",7," steven spielberg",2011-12-01
+2011,"December","Business_Tech",6," jed s rakoff",2011-12-01
+2011,"December","OpEd_Opinion",71," barack obama",2011-12-01
+2011,"December","World",35," vladimir v putin",2011-12-01
+2012,"January","Arts_Culture",16," george clooney",2012-01-01
+2012,"January","Business_Tech",9," angela merkel",2012-01-01
+2012,"January","OpEd_Opinion",88," barack obama",2012-01-01
+2012,"January","World",25," bashar al assad",2012-01-01
+2012,"February","Arts_Culture",17," whitney houston",2012-02-01
+2012,"February","Business_Tech",13," barack obama",2012-02-01
+2012,"February","OpEd_Opinion",68," barack obama",2012-02-01
+2012,"February","World",43," bashar al assad",2012-02-01
+2012,"March","Arts_Culture",5," paul taylor",2012-03-01
+2012,"March","Business_Tech",9," ben s bernanke",2012-03-01
+2012,"March","OpEd_Opinion",54," barack obama",2012-03-01
+2012,"March","World",30," bashar al assad",2012-03-01
+2012,"April","Arts_Culture",5," william shakespeare",2012-04-01
+2012,"April","Business_Tech",6," christine lagarde",2012-04-01
+2012,"April","OpEd_Opinion",52," barack obama",2012-04-01
+2012,"April","World",24,"bo xilai ",2012-04-01
+2012,"May","Arts_Culture",6," donna summer",2012-05-01
+2012,"May","Business_Tech",16," mark e zuckerberg",2012-05-01
+2012,"May","OpEd_Opinion",79," barack obama",2012-05-01
+2012,"May","World",32," barack obama",2012-05-01
+2012,"June","Arts_Culture",7," a o scott",2012-06-01
+2012,"June","Business_Tech",6," angela merkel",2012-06-01
+2012,"June","OpEd_Opinion",73," barack obama",2012-06-01
+2012,"June","World",40," bashar al assad",2012-06-01
+2012,"July","Arts_Culture",7," frank ocean",2012-07-01
+2012,"July","Business_Tech",8," marissa mayer",2012-07-01
+2012,"July","OpEd_Opinion",68," mitt romney",2012-07-01
+2012,"July","World",46," bashar al assad",2012-07-01
+2012,"August","Arts_Culture",6," marvin hamlisch",2012-08-01
+2012,"August","Business_Tech",7," angela merkel",2012-08-01
+2012,"August","OpEd_Opinion",110," mitt romney",2012-08-01
+2012,"August","World",33," bashar al assad",2012-08-01
+2012,"September","Arts_Culture",8," philip glass",2012-09-01
+2012,"September","Business_Tech",7," barack obama",2012-09-01
+2012,"September","OpEd_Opinion",99," mitt romney",2012-09-01
+2012,"September","World",28," barack obama",2012-09-01
+2012,"October","Arts_Culture",10," pablo picasso",2012-10-01
+2012,"October","Business_Tech",12," mitt romney",2012-10-01
+2012,"October","OpEd_Opinion",143," mitt romney",2012-10-01
+2012,"October","World",21," bashar al assad",2012-10-01
+2012,"November","Arts_Culture",7," a o scott",2012-11-01
+2012,"November","Business_Tech",7," barack obama",2012-11-01
+2012,"November","OpEd_Opinion",125," barack obama",2012-11-01
+2012,"November","World",50," barack obama",2012-11-01
+2012,"December","Arts_Culture",7," a o scott",2012-12-01
+2012,"December","Business_Tech",5," ben s bernanke",2012-12-01
+2012,"December","OpEd_Opinion",62," barack obama",2012-12-01
+2012,"December","World",50," bashar al assad",2012-12-01
+2013,"January","Arts_Culture",8," a o scott",2013-01-01
+2013,"January","Business_Tech",5," barack obama",2013-01-01
+2013,"January","OpEd_Opinion",79," barack obama",2013-01-01
+2013,"January","World",32," bashar al assad",2013-01-01
+2013,"February","Arts_Culture",10," steven spielberg",2013-02-01
+2013,"February","Business_Tech",4," ben s bernanke",2013-02-01
+2013,"February","OpEd_Opinion",58," barack obama",2013-02-01
+2013,"February","World",38,"benedict xvi ",2013-02-01
+2013,"March","Arts_Culture",8," a o scott",2013-03-01
+2013,"March","Business_Tech",3," andrew mason",2013-03-01
+2013,"March","OpEd_Opinion",48," barack obama",2013-03-01
+2013,"March","World",38," barack obama",2013-03-01
+2013,"April","Arts_Culture",6," a o scott",2013-04-01
+2013,"April","Business_Tech",6," christine lagarde",2013-04-01
+2013,"April","OpEd_Opinion",42," barack obama",2013-04-01
+2013,"April","World",30," bashar al assad",2013-04-01
+2013,"May","Arts_Culture",7," david carr",2013-05-01
+2013,"May","Business_Tech",7," barack obama",2013-05-01
+2013,"May","OpEd_Opinion",56," barack obama",2013-05-01
+2013,"May","World",42," barack obama",2013-05-01
+2013,"June","Arts_Culture",8," james gandolfini",2013-06-01
+2013,"June","Business_Tech",12," ben s bernanke",2013-06-01
+2013,"June","OpEd_Opinion",58," barack obama",2013-06-01
+2013,"June","World",44," barack obama",2013-06-01
+2013,"July","Arts_Culture",6," cory monteith",2013-07-01
+2013,"July","Business_Tech",7," ben s bernanke",2013-07-01
+2013,"July","OpEd_Opinion",33," barack obama",2013-07-01
+2013,"July","World",76," mohamed morsi",2013-07-01
+2013,"August","Arts_Culture",7," lorne michaels",2013-08-01
+2013,"August","Business_Tech",10," steven a ballmer",2013-08-01
+2013,"August","OpEd_Opinion",45," barack obama",2013-08-01
+2013,"August","World",50," mohamed morsi",2013-08-01
+2013,"September","Arts_Culture",6," justin peck",2013-09-01
+2013,"September","Business_Tech",9," barack obama",2013-09-01
+2013,"September","OpEd_Opinion",68," barack obama",2013-09-01
+2013,"September","World",88," barack obama",2013-09-01
+2013,"October","Arts_Culture",9," william shakespeare",2013-10-01
+2013,"October","Business_Tech",6," janet l yellen",2013-10-01
+2013,"October","OpEd_Opinion",60," barack obama",2013-10-01
+2013,"October","World",30," barack obama",2013-10-01
+2013,"November","Arts_Culture",9," cornelius gurlitt",2013-11-01
+2013,"November","Business_Tech",8," janet l yellen",2013-11-01
+2013,"November","OpEd_Opinion",36," barack obama",2013-11-01
+2013,"November","World",26," barack obama",2013-11-01
+2013,"December","Arts_Culture",8," david o russell",2013-12-01
+2013,"December","Business_Tech",5," shinzo abe",2013-12-01
+2013,"December","OpEd_Opinion",37," barack obama",2013-12-01
+2013,"December","World",76," nelson mandela",2013-12-01
+2014,"January","Arts_Culture",13," steve mcqueen",2014-01-01
+2014,"January","Business_Tech",9," marissa mayer",2014-01-01
+2014,"January","OpEd_Opinion",50," barack obama",2014-01-01
+2014,"January","World",31," barack obama",2014-01-01
+2014,"February","Arts_Culture",5," sid caesar",2014-02-01
+2014,"February","Business_Tech",10," janet l yellen",2014-02-01
+2014,"February","OpEd_Opinion",39," barack obama",2014-02-01
+2014,"February","World",48," viktor f yanukovych",2014-02-01
+2014,"March","Arts_Culture",4," gregory cowles",2014-03-01
+2014,"March","Business_Tech",17," carl c icahn",2014-03-01
+2014,"March","OpEd_Opinion",57," vladimir v putin",2014-03-01
+2014,"March","World",88," vladimir v putin",2014-03-01
+2014,"April","Arts_Culture",10,"ai weiwei ",2014-04-01
+2014,"April","Business_Tech",14," william a ackman",2014-04-01
+2014,"April","OpEd_Opinion",36," barack obama",2014-04-01
+2014,"April","World",48," barack obama",2014-04-01
+2014,"May","Arts_Culture",8," anthony tommasini",2014-05-01
+2014,"May","Business_Tech",10," william a ackman",2014-05-01
+2014,"May","OpEd_Opinion",30," barack obama",2014-05-01
+2014,"May","World",63," narendra modi",2014-05-01
+2014,"June","Arts_Culture",7," william shakespeare",2014-06-01
+2014,"June","Business_Tech",13," mary t barra",2014-06-01
+2014,"June","OpEd_Opinion",49," barack obama",2014-06-01
+2014,"June","World",58," barack obama",2014-06-01
+2014,"July","Arts_Culture",15," william shakespeare",2014-07-01
+2014,"July","Business_Tech",14," rupert murdoch",2014-07-01
+2014,"July","OpEd_Opinion",43," barack obama",2014-07-01
+2014,"July","World",45," john kerry",2014-07-01
+2014,"August","Arts_Culture",8," william shakespeare",2014-08-01
+2014,"August","Business_Tech",8," barack obama",2014-08-01
+2014,"August","OpEd_Opinion",63," barack obama",2014-08-01
+2014,"August","World",54," barack obama",2014-08-01
+2014,"September","Arts_Culture",13," joan rivers",2014-09-01
+2014,"September","Business_Tech",16," jack ma",2014-09-01
+2014,"September","OpEd_Opinion",65," barack obama",2014-09-01
+2014,"September","World",79," barack obama",2014-09-01
+2014,"October","Arts_Culture",9," pablo picasso",2014-10-01
+2014,"October","Business_Tech",11," timothy d cook",2014-10-01
+2014,"October","OpEd_Opinion",29," barack obama",2014-10-01
+2014,"October","World",33,"leung chunying ",2014-10-01
+2014,"November","Arts_Culture",5," bill cosby",2014-11-01
+2014,"November","Business_Tech",15," barack obama",2014-11-01
+2014,"November","OpEd_Opinion",67," barack obama",2014-11-01
+2014,"November","World",49," barack obama",2014-11-01
+2014,"December","Arts_Culture",7," michael keaton",2014-12-01
+2014,"December","Business_Tech",9," barack obama",2014-12-01
+2014,"December","OpEd_Opinion",43," barack obama",2014-12-01
+2014,"December","World",41," barack obama",2014-12-01
+2015,"January","Arts_Culture",7," ava duvernay",2015-01-01
+2015,"January","Business_Tech",15," mario draghi",2015-01-01
+2015,"January","OpEd_Opinion",13," barack obama",2015-01-01
+2015,"January","World",22," barack obama",2015-01-01
+2015,"February","Arts_Culture",7," patricia arquette",2015-02-01
+2015,"February","Business_Tech",21," barack obama",2015-02-01
+2015,"February","OpEd_Opinion",37," barack obama",2015-02-01
+2015,"February","World",33," barack obama",2015-02-01
+2015,"March","Arts_Culture",5," jonathan banks",2015-03-01
+2015,"March","Business_Tech",12," ellen pao",2015-03-01
+2015,"March","OpEd_Opinion",32," barack obama",2015-03-01
+2015,"March","World",58," benjamin netanyahu",2015-03-01
+2015,"April","Arts_Culture",8," trevor  noah",2015-04-01
+2015,"April","Business_Tech",12," yanis varoufakis",2015-04-01
+2015,"April","OpEd_Opinion",38," barack obama",2015-04-01
+2015,"April","World",51," barack obama",2015-04-01
+2015,"May","Arts_Culture",11," david letterman",2015-05-01
+2015,"May","Business_Tech",11," barack obama",2015-05-01
+2015,"May","OpEd_Opinion",28," barack obama",2015-05-01
+2015,"May","World",29," barack obama",2015-05-01
+2015,"June","Arts_Culture",5," frederick ashton",2015-06-01
+2015,"June","Business_Tech",20," alexis tsipras",2015-06-01
+2015,"June","OpEd_Opinion",26," barack obama",2015-06-01
+2015,"June","World",41," barack obama",2015-06-01
+2015,"July","Arts_Culture",8," harper lee",2015-07-01
+2015,"July","Business_Tech",13," alexis tsipras",2015-07-01
+2015,"July","OpEd_Opinion",41," barack obama",2015-07-01
+2015,"July","World",71," barack obama",2015-07-01
+2015,"August","Arts_Culture",9," jon stewart",2015-08-01
+2015,"August","Business_Tech",6," barack obama",2015-08-01
+2015,"August","OpEd_Opinion",36," barack obama",2015-08-01
+2015,"August","World",32," barack obama",2015-08-01
+2015,"September","Arts_Culture",12," stephen colbert",2015-09-01
+2015,"September","Business_Tech",13," martin winterkorn",2015-09-01
+2015,"September","OpEd_Opinion",49," donald j trump",2015-09-01
+2015,"September","World",61," barack obama",2015-09-01
+2015,"October","Arts_Culture",5," jennie somogyi",2015-10-01
+2015,"October","Business_Tech",22," jack dorsey",2015-10-01
+2015,"October","OpEd_Opinion",31," barack obama",2015-10-01
+2015,"October","World",38," bashar al assad",2015-10-01
+2015,"November","Arts_Culture",10,"adele  ",2015-11-01
+2015,"November","Business_Tech",8," eric t schneiderman",2015-11-01
+2015,"November","OpEd_Opinion",38," barack obama",2015-11-01
+2015,"November","World",35," barack obama",2015-11-01
+2015,"December","Arts_Culture",9," johann sebastian bach",2015-12-01
+2015,"December","Business_Tech",16," martin  shkreli",2015-12-01
+2015,"December","OpEd_Opinion",59," donald j trump",2015-12-01
+2015,"December","World",30," barack obama",2015-12-01
+2016,"January","Arts_Culture",26," david bowie",2016-01-01
+2016,"January","Business_Tech",7," donald j trump",2016-01-01
+2016,"January","OpEd_Opinion",62," donald j trump",2016-01-01
+2016,"January","World",24," barack obama",2016-01-01
+2016,"February","Arts_Culture",9," bill cosby",2016-02-01
+2016,"February","Business_Tech",18," timothy d cook",2016-02-01
+2016,"February","OpEd_Opinion",74," donald j trump",2016-02-01
+2016,"February","World",27," bashar al assad",2016-02-01
+2016,"March","Arts_Culture",7," bill cosby",2016-03-01
+2016,"March","Business_Tech",22," donald j trump",2016-03-01
+2016,"March","OpEd_Opinion",137," donald j trump",2016-03-01
+2016,"March","World",48," barack obama",2016-03-01
+2016,"April","Arts_Culture",19,"prince  ",2016-04-01
+2016,"April","Business_Tech",15," donald j trump",2016-04-01
+2016,"April","OpEd_Opinion",72," donald j trump",2016-04-01
+2016,"April","World",27," barack obama",2016-04-01
+2016,"May","Arts_Culture",5," beyonce knowles",2016-05-01
+2016,"May","Business_Tech",19," donald j trump",2016-05-01
+2016,"May","OpEd_Opinion",99," donald j trump",2016-05-01
+2016,"May","World",43," barack obama",2016-05-01
+2016,"June","Arts_Culture",8," kanye west",2016-06-01
+2016,"June","Business_Tech",18," sumner m redstone",2016-06-01
+2016,"June","OpEd_Opinion",99," donald j trump",2016-06-01
+2016,"June","World",25," david cameron",2016-06-01
+2016,"July","Arts_Culture",8," william shakespeare",2016-07-01
+2016,"July","Business_Tech",23," roger e ailes",2016-07-01
+2016,"July","OpEd_Opinion",127," donald j trump",2016-07-01
+2016,"July","World",26," recep tayyip erdogan",2016-07-01
+2016,"August","Arts_Culture",8," frank ocean",2016-08-01
+2016,"August","Business_Tech",13," donald j trump",2016-08-01
+2016,"August","OpEd_Opinion",120," donald j trump",2016-08-01
+2016,"August","World",17," vladimir v putin",2016-08-01
+2016,"September","Arts_Culture",7," kanye west",2016-09-01
+2016,"September","Business_Tech",29," donald j trump",2016-09-01
+2016,"September","OpEd_Opinion",166," donald j trump",2016-09-01
+2016,"September","World",44," barack obama",2016-09-01
+2016,"October","Arts_Culture",14," bob dylan",2016-10-01
+2016,"October","Business_Tech",42," donald j trump",2016-10-01
+2016,"October","OpEd_Opinion",199," donald j trump",2016-10-01
+2016,"October","World",17," rodrigo duterte",2016-10-01
+2016,"November","Arts_Culture",24," donald j trump",2016-11-01
+2016,"November","Business_Tech",96," donald j trump",2016-11-01
+2016,"November","OpEd_Opinion",288," donald j trump",2016-11-01
+2016,"November","World",81," donald j trump",2016-11-01
+2016,"December","Arts_Culture",10," george michael",2016-12-01
+2016,"December","Business_Tech",69," donald j trump",2016-12-01
+2016,"December","OpEd_Opinion",239," donald j trump",2016-12-01
+2016,"December","World",67," donald j trump",2016-12-01
+2017,"January","Arts_Culture",42," donald j trump",2017-01-01
+2017,"January","Business_Tech",95," donald j trump",2017-01-01
+2017,"January","OpEd_Opinion",274," donald j trump",2017-01-01
+2017,"January","World",75," donald j trump",2017-01-01
+2017,"February","Arts_Culture",31," donald j trump",2017-02-01
+2017,"February","Business_Tech",73," donald j trump",2017-02-01
+2017,"February","OpEd_Opinion",144," donald j trump",2017-02-01
+2017,"February","World",86," donald j trump",2017-02-01
+2017,"March","Arts_Culture",33," donald j trump",2017-03-01
+2017,"March","Business_Tech",67," donald j trump",2017-03-01
+2017,"March","OpEd_Opinion",256," donald j trump",2017-03-01
+2017,"March","World",67," donald j trump",2017-03-01
+2017,"April","Arts_Culture",17," donald j trump",2017-04-01
+2017,"April","Business_Tech",50," donald j trump",2017-04-01
+2017,"April","OpEd_Opinion",181," donald j trump",2017-04-01
+2017,"April","World",100," donald j trump",2017-04-01
+2017,"May","Arts_Culture",18," jimmy kimmel",2017-05-01
+2017,"May","Business_Tech",39," donald j trump",2017-05-01
+2017,"May","OpEd_Opinion",224," donald j trump",2017-05-01
+2017,"May","World",98," donald j trump",2017-05-01
+2017,"June","Arts_Culture",26," bill cosby",2017-06-01
+2017,"June","Business_Tech",43," donald j trump",2017-06-01
+2017,"June","OpEd_Opinion",188," donald j trump",2017-06-01
+2017,"June","World",68," donald j trump",2017-06-01
+2017,"July","Arts_Culture",17," donald j trump",2017-07-01
+2017,"July","Business_Tech",34," donald j trump",2017-07-01
+2017,"July","OpEd_Opinion",176," donald j trump",2017-07-01
+2017,"July","World",74," donald j trump",2017-07-01
+2017,"August","Arts_Culture",18," donald j trump",2017-08-01
+2017,"August","Business_Tech",46," donald j trump",2017-08-01
+2017,"August","OpEd_Opinion",90," donald j trump",2017-08-01
+2017,"August","World",57," donald j trump",2017-08-01
+2017,"September","Arts_Culture",13," jimmy kimmel",2017-09-01
+2017,"September","Business_Tech",17," donald j trump",2017-09-01
+2017,"September","OpEd_Opinion",86," donald j trump",2017-09-01
+2017,"September","World",39," donald j trump",2017-09-01
+2017,"October","Arts_Culture",19," donald j trump",2017-10-01
+2017,"October","Business_Tech",24," donald j trump",2017-10-01
+2017,"October","OpEd_Opinion",95," donald j trump",2017-10-01
+2017,"October","World",19," carles  puigdemont",2017-10-01
+2017,"November","Arts_Culture",12," donald j trump",2017-11-01
+2017,"November","Business_Tech",31," donald j trump",2017-11-01
+2017,"November","OpEd_Opinion",81," donald j trump",2017-11-01
+2017,"November","World",34," donald j trump",2017-11-01
+2017,"December","Arts_Culture",11," donald j trump",2017-12-01
+2017,"December","Business_Tech",30," donald j trump",2017-12-01
+2017,"December","OpEd_Opinion",98," donald j trump",2017-12-01
+2017,"December","World",30," donald j trump",2017-12-01
+2018,"January","Arts_Culture",14," seth meyers",2018-01-01
+2018,"January","Business_Tech",53," donald j trump",2018-01-01
+2018,"January","OpEd_Opinion",146," donald j trump",2018-01-01
+2018,"January","World",37," donald j trump",2018-01-01
+2018,"February","Arts_Culture",14," donald j trump",2018-02-01
+2018,"February","Business_Tech",19," donald j trump",2018-02-01
+2018,"February","OpEd_Opinion",102," donald j trump",2018-02-01
+2018,"February","World",14," donald j trump",2018-02-01
+2018,"March","Arts_Culture",13," donald j trump",2018-03-01
+2018,"March","Business_Tech",55," donald j trump",2018-03-01
+2018,"March","OpEd_Opinion",128," donald j trump",2018-03-01
+2018,"March","World",42," donald j trump",2018-03-01
+2018,"April","Arts_Culture",21," bill cosby",2018-04-01
+2018,"April","Business_Tech",44," donald j trump",2018-04-01
+2018,"April","OpEd_Opinion",102," donald j trump",2018-04-01
+2018,"April","World",38," donald j trump",2018-04-01
+2018,"May","Arts_Culture",13," donald j trump",2018-05-01
+2018,"May","Business_Tech",45," donald j trump",2018-05-01
+2018,"May","OpEd_Opinion",100," donald j trump",2018-05-01
+2018,"May","World",39," donald j trump",2018-05-01
+2018,"June","Arts_Culture",15," donald j trump",2018-06-01
+2018,"June","Business_Tech",50," donald j trump",2018-06-01
+2018,"June","OpEd_Opinion",125," donald j trump",2018-06-01
+2018,"June","World",63," donald j trump",2018-06-01
+2018,"July","Arts_Culture",18," donald j trump",2018-07-01
+2018,"July","Business_Tech",54," donald j trump",2018-07-01
+2018,"July","OpEd_Opinion",130," donald j trump",2018-07-01
+2018,"July","World",56," donald j trump",2018-07-01
+2018,"August","Arts_Culture",11," aretha franklin",2018-08-01
+2018,"August","Business_Tech",28," donald j trump",2018-08-01
+2018,"August","OpEd_Opinion",89," donald j trump",2018-08-01
+2018,"August","World",21," donald j trump",2018-08-01
+2018,"September","Arts_Culture",14," donald j trump",2018-09-01
+2018,"September","Business_Tech",33," donald j trump",2018-09-01
+2018,"September","OpEd_Opinion",95," donald j trump",2018-09-01
+2018,"September","World",20," donald j trump",2018-09-01
+2018,"October","Arts_Culture",17," donald j trump",2018-10-01
+2018,"October","Business_Tech",31," donald j trump",2018-10-01
+2018,"October","OpEd_Opinion",123," donald j trump",2018-10-01
+2018,"October","World",40," jamal khashoggi",2018-10-01
+2018,"November","Arts_Culture",13," donald j trump",2018-11-01
+2018,"November","Business_Tech",32," donald j trump",2018-11-01
+2018,"November","OpEd_Opinion",96," donald j trump",2018-11-01
+2018,"November","World",27," donald j trump",2018-11-01
+2018,"December","Arts_Culture",12," donald j trump",2018-12-01
+2018,"December","Business_Tech",29," donald j trump",2018-12-01
+2018,"December","OpEd_Opinion",91," donald j trump",2018-12-01
+2018,"December","World",27," donald j trump",2018-12-01
+2019,"January","Arts_Culture",18," donald j trump",2019-01-01
+2019,"January","Business_Tech",25," donald j trump",2019-01-01
+2019,"January","OpEd_Opinion",125," donald j trump",2019-01-01
+2019,"January","World",35," donald j trump",2019-01-01
+2019,"February","Arts_Culture",14," donald j trump",2019-02-01
+2019,"February","Business_Tech",33," donald j trump",2019-02-01
+2019,"February","OpEd_Opinion",126," donald j trump",2019-02-01
+2019,"February","World",39," donald j trump",2019-02-01
+2019,"March","Arts_Culture",15," donald j trump",2019-03-01
+2019,"March","Business_Tech",19," donald j trump",2019-03-01
+2019,"March","OpEd_Opinion",125," donald j trump",2019-03-01
+2019,"March","World",30," donald j trump",2019-03-01
+2019,"April","Arts_Culture",13," jimmy fallon",2019-04-01
+2019,"April","Business_Tech",28," donald j trump",2019-04-01
+2019,"April","OpEd_Opinion",111," donald j trump",2019-04-01
+2019,"April","World",24," donald j trump",2019-04-01
+2019,"May","Arts_Culture",13," donald j trump",2019-05-01
+2019,"May","Business_Tech",40," donald j trump",2019-05-01
+2019,"May","OpEd_Opinion",148," donald j trump",2019-05-01
+2019,"May","World",41," donald j trump",2019-05-01
+2019,"June","Arts_Culture",13," stephen colbert",2019-06-01
+2019,"June","Business_Tech",54," donald j trump",2019-06-01
+2019,"June","OpEd_Opinion",132," donald j trump",2019-06-01
+2019,"June","World",69," donald j trump",2019-06-01
+2019,"July","Arts_Culture",11," donald j trump",2019-07-01
+2019,"July","Business_Tech",25," donald j trump",2019-07-01
+2019,"July","OpEd_Opinion",151," donald j trump",2019-07-01
+2019,"July","World",31," donald j trump",2019-07-01
+2019,"August","Arts_Culture",8," donald j trump",2019-08-01
+2019,"August","Business_Tech",46," donald j trump",2019-08-01
+2019,"August","OpEd_Opinion",108," donald j trump",2019-08-01
+2019,"August","World",42," donald j trump",2019-08-01
+2019,"September","Arts_Culture",12," donald j trump",2019-09-01
+2019,"September","Business_Tech",24," donald j trump",2019-09-01
+2019,"September","OpEd_Opinion",136," donald j trump",2019-09-01
+2019,"September","World",50," donald j trump",2019-09-01
+2019,"October","Arts_Culture",18," donald j trump",2019-10-01
+2019,"October","Business_Tech",34," donald j trump",2019-10-01
+2019,"October","OpEd_Opinion",166," donald j trump",2019-10-01
+2019,"October","World",60," donald j trump",2019-10-01
+2019,"November","Arts_Culture",15," donald j trump",2019-11-01
+2019,"November","Business_Tech",25," donald j trump",2019-11-01
+2019,"November","OpEd_Opinion",154," donald j trump",2019-11-01
+2019,"November","World",31," donald j trump",2019-11-01
+2019,"December","Arts_Culture",2," deborah borda",2019-12-01
+2019,"December","Business_Tech",7," donald j trump",2019-12-01
+2019,"December","OpEd_Opinion",12," donald j trump",2019-12-01
+2019,"December","World",10," donald j trump",2019-12-01

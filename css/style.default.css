@@ -1,0 +1,249 @@
+/* 
+========================================= 
+========================================= 
+
+Bootstrapious Boilerplate Template
+
+========================================= 
+========================================= */
+/*
+*
+* =====================
+* GENERAL
+* =====================
+*
+*/
+.text-bold {
+  font-weight: 700;
+}
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.italic {
+  font-style: italic;
+}
+
+section {
+  padding: 150px 0;
+}
+
+@media (max-width: 767.98px) {
+  section {
+    padding: 60px 0;
+  }
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #000;
+  z-index: 2;
+  opacity: 0.6;
+}
+
+.heading {
+  margin-bottom: 40px;
+}
+
+.heading:after {
+  content: " ";
+  display: block;
+  width: 100px;
+  height: 1px;
+  margin: 20px 0 20px;
+  background: #555;
+}
+
+.section-inverse {
+  color: #fff;
+  background: #333;
+}
+
+.section-inverse h1,
+.section-inverse h2,
+.section-inverse h3,
+.section-inverse h4,
+.section-inverse h5,
+.section-inverse h6 {
+  color: #fff;
+}
+
+.section-inverse .heading:after {
+  background: #fff;
+}
+
+.box {
+  margin-bottom: 30px;
+}
+
+/*
+*
+=====================
+NAVBAR
+=====================
+*
+*/
+nav.navbar {
+  background: #fff;
+  padding-top: 0;
+  padding-bottom: 0;
+  -webkit-box-shadow: 0 1px 0 #ddd;
+  box-shadow: 0 1px 0 #ddd;
+}
+
+nav.navbar a.nav-link {
+  position: relative;
+  top: 1px;
+  color: #777;
+  font-style: italic;
+  border-bottom: 1px solid transparent;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover, nav.navbar a.nav-link:focus {
+  color: #333;
+}
+
+nav.navbar a.nav-link.active {
+  border-bottom: 1px solid #333;
+}
+
+nav.navbar .navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+nav.navbar.sticky {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  z-index: 999;
+}
+
+/*
+*
+=====================
+INTRO SECTION
+=====================
+*
+*/
+.intro {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-color: #111;
+  min-height: 600px;
+  padding: 0;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+
+.intro h1,
+.intro h2,
+.intro h3,
+.intro p {
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.intro p {
+  font-size: 1.35rem;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  z-index: 10;
+}
+
+@media (max-width: 767.98px) {
+  .content {
+    position: relative;
+    padding: 80px 0;
+    top: 0;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+
+/*
+*
+=====================
+SERVICES SECTION
+=====================
+*
+*/
+.services .box {
+  margin-top: 20px;
+}
+
+.services .icon {
+  font-size: 50px;
+  color: #262626;
+  margin-bottom: 10px;
+}
+
+
+
+/*
+*
+=====================
+CONTACT SECTION
+=====================
+*
+*/
+.contact-form {
+  margin-bottom: 40px;
+}
+
+/*
+*
+=====================
+FOOTER
+=====================
+*
+*/
+footer {
+  padding: 20px 0;
+}
+
+.copyright {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #eee;
+  font-style: italic;
+}
+
+.copyright p.credit {
+  text-align: right;
+}
+
+.copyright p.credit a {
+  color: #eee;
+}
+
+/*
