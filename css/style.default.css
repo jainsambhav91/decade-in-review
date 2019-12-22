@@ -97,11 +97,11 @@ NAVBAR
 *
 */
 nav.navbar {
-  background: #fff;
+  background-color: #121212;
   padding-top: 0;
   padding-bottom: 0;
-  -webkit-box-shadow: 0 1px 0 #ddd;
-  box-shadow: 0 1px 0 #ddd;
+  -webkit-box-shadow: 0 2px 0 #888;
+  box-shadow: 0 2px 0 #888;
 }
 
 nav.navbar a.nav-link {
@@ -114,7 +114,9 @@ nav.navbar a.nav-link {
   padding-bottom: 1rem;
 }
 
-nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover, nav.navbar a.nav-link:focus {
+nav.navbar a.nav-link.active,
+nav.navbar a.nav-link:hover,
+nav.navbar a.nav-link:focus {
   color: #333;
 }
 
@@ -234,8 +236,9 @@ footer {
 .copyright {
   margin-top: 40px;
   margin-bottom: 40px;
-  color: #eee;
-  font-style: italic;
+  font-size: 0.8rem;
+  color: #ddd;
+  /* font-style: italic; */
 }
 
 .copyright p.credit {
