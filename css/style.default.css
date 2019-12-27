@@ -51,7 +51,7 @@ section {
   top: 0;
   background: #000;
   z-index: 2;
-  opacity: 0.6;
+  opacity: 0.1;
 }
 
 .heading {
@@ -96,15 +96,18 @@ NAVBAR
 =====================
 *
 */
+
+
 nav.navbar {
-  background-color: #121212;
+  background-color: #eee;
   padding-top: 0;
   padding-bottom: 0;
-  -webkit-box-shadow: 0 2px 0 #888;
-  box-shadow: 0 2px 0 #888;
+  border-bottom: 4px solid #ddd;
+  /* -webkit-box-shadow: 0 2px 0 #888; */
+  /* box-shadow: 0 2px 0 #888; */
 }
 
-nav.navbar a.nav-link {
+/* nav.navbar a.nav-link {
   position: relative;
   top: 1px;
   color: #777;
@@ -112,7 +115,7 @@ nav.navbar a.nav-link {
   border-bottom: 1px solid transparent;
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
+} */
 
 nav.navbar a.nav-link.active,
 nav.navbar a.nav-link:hover,
@@ -134,7 +137,7 @@ nav.navbar.sticky {
   position: fixed;
   top: 0;
   left: 0;
-  background: #fff;
+  background: #eee;
   z-index: 999;
 }
 
@@ -164,7 +167,7 @@ INTRO SECTION
 .intro h3,
 .intro p {
   color: #fff;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  /* text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); */
 }
 
 .intro p {
@@ -175,6 +178,7 @@ INTRO SECTION
   position: relative;
   width: 100%;
   top: 50%;
+  /* top: 50%; */
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
   -webkit-transition: all 0.3s;

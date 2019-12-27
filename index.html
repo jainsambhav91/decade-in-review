@@ -17,16 +17,33 @@
   <!-- Favicon-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- <link rel="shortcut icon" href="img/favicon.png"> -->
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
   <section id="intro" style="background-image: url('img/ein-steig.jpg');" class="intro">
+
     <div class="overlay"></div>
     <div class="content">
       <div class="container clearfix">
         <!-- <div class="row"> -->
         <!-- <div class="col-lg-8 col-md-12 mx-auto"> -->
-        <h1 class="text-center">Decade in Review:<br>People we Talked About</h1>
+        <h1 class="text-center" id="title">Faces of the Decade</h1>
+        <h3 class="text-center" id="subtitle">The Nation's most talked about people</h3>
+        <p class="text-center" id="name">SAMBHAV JAIN | DECEMBER 2019</p>
+        <div id="abstract-div">
+          <p id="abstract">Discover the most captivating people of the 2010s. This interactive timeline allows you to
+            scroll through the
+            faces of those most referenced in <img src="img/new-york-times-logo-black-and-white-2.png"
+              style="height:25px;"> — excluding sitting US presidents* — across four key
+            categories:<br> <span style="color: #a5d5a7;">Arts & Culture,</span> <span style="color: #f490b1;">Business
+              & Tech.,</span> <span style="color: #70b2e2;">OpEd/Opinion,</span> and <span style="color: #c694c3;">World
+              News.</span> <br>This timeline is generated from an analysis of all NYT articles from the past decade.
+            Navigate to the methodology.
+          </p>
+        </div>
+
         <!-- </div> -->
         <!-- </div> -->
       </div>
@@ -36,30 +53,57 @@
   <!-- navbar-->
   <header class="header">
     <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <div class="container" class="collapse navbar-collapse" id="navbarNav">
+          <div class="row">
+            <div class="col-2">
 
-      <div class="container" class="collapse navbar-collapse" id="navbarNav">
-        <div class="col-2 text-center year">
-          <p id="yearP ">2010</p>
-        </div>
-        <div class="col-2 text-center categories" id="arts">
-          <p><span class="label"><br>most discussed in<br></span>ARTS & CULTURE<br><br></p>
-        </div>
-        <div class="col-2 text-center categories">
-          <p id="business"><span class="label"></span><br><br>BUSINESS & TECH.<br><br></p>
-        </div>
-        <div class="col-2 text-center categories">
-          <p id="oped"><span class="label"></span><br><br>OPED / OPINION<br><br></p>
-        </div>
-        <div class="col-2 text-center categories">
-          <p id="world"><span class="label"></span><br><br>WORLD<br><br></p>
-        </div>
-        <div class="col-2 text-center">
+            </div>
+            <div class="col-8 text-center most-disc">
+              <p> MOST DISCUSSED IN</p>
+            </div>
+            <div class="col-2">
 
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-2 text-center year">
+              <p id="yearnum">2010</p>
+            </div>
+            <div class="col-2 text-center categories" id="arts">
+              <p><span class="label" id="arts-text">ARTS & CULTURE</span></p>
+            </div>
+            <div class="col-2 text-center categories" id="tech">
+              <p><span class="label" id="tech-text">BUSINESS & TECH.</span></p>
+            </div>
+            <div class="col-2 text-center categories" id="oped">
+              <p><span class="label" id="oped-text">OPED / OPINION</span></p>
+            </div>
+            <div class="col-2 text-center categories" id="world">
+              <p><span class="label" id="world-text">WORLD</span></p>
+            </div>
+            <!-- <div class="col-8">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-item nav-link label" id="arts" href="#">ARTS & CULTURE <span
+                      class="sr-only">(current)</span></a>
+                  <a class="nav-item nav-link label" id="tech" href="#">BUSINESS & TECH.</a>
+                  <a class="nav-item nav-link label" id="oped" href="#">OPED / OPINION</a>
+                  <a class="nav-item nav-link label" id="world" href="#">WORLD</a>
+                </div>
+              </div> -->
+          </div>
         </div>
       </div>
+      </div>
+      </div>
     </nav>
-
   </header>
+
   <!-- Main Chart -->
   <section id="about" class="text">
     <div class="container" id="result">
@@ -96,42 +140,6 @@
       </div>
     </div>
   </section>
-  <div class="popup-footer" style="display: block; left: 10px;">
-    <div class="close ns-close"></div>
-    <div class="popup-footer-contents">
-      <p class="popup-footer-text">Sign up to get our favorite data-driven articles each week.</p>
-      <div class="popup-input-container">
-        <form method="post" enctype="multipart/form-data" accept-charset="utf-8">
-
-
-
-          <input type="hidden" name="action" value="formerly/submissions/postSubmission">
-          <input type="hidden" name="redirect" value="/thank-you?ok=1&amp;form=popup-form">
-          <input type="hidden" name="formId" value="6">
-
-          <div class="form popup-form">
-
-            <input type="email" required="" aria-required="true" data-val-required="'Email' is required" data-val="true"
-              class="text" placeholder="email@address" id="newsletterSignup_email"
-              name="questions[newsletterSignup_email]" value="">
-
-            <input type="submit" class="submit action submit-button" value="Submit" name="btnSubmit">
-
-
-            <input type="hidden" id="snaptcha_tXIZz" name="snaptcha" value="muLer80zVoYRm">
-            <script type="text/javascript">
-              document.getElementById("snaptcha_tXIZz").value = "muLer80zVoYRm";
-            </script>
-
-
-          </div>
-        </form>
-        <!--<input class='popup-footer-input-email' placeholder='Email Address'/>
-          <input class='popup-footer-input-submit' placeholder='Submit'/>-->
-      </div>
-    </div>
-  </div>
-
   <footer style="background-color: #111;">
     <div class="container">
       <div class="row copyright">

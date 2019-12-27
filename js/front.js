@@ -1,21 +1,5 @@
 $(function () {
 
-    $(document).scroll(function () {
-
-        // console.log(document.getElementById("_48").offsetTop);
-        console.log($("#result").offset().top);
-
-        // console.log($('.row').scrollTop());
-        // console.log($('#_48').contentWindow.pageYOffset);
-
-        if ($("#_48").scrollTop < 80) {
-            //change yes to no
-            // document.getElementById("yearP").innerHTML = '2011';
-            // $('#yearP').innerHTML = '2011'
-            $('#yearP').html('2011');
-        }
-    });
-
     // ---------------------------------------------- //
     // Navbar
     // ---------------------------------------------- //
@@ -27,7 +11,6 @@ $(function () {
             $('nav').removeClass('sticky');
         }
     });
-
 
     // ---------------------------------------------- //
     // Scroll Spy
@@ -50,9 +33,64 @@ $(function () {
         e.preventDefault();
     });
 
+    $(document).scroll(function () {
+
+        if ($(window).scrollTop() < 2527) {
+            document.getElementById("yearnum").innerHTML = '2010';
+        } else if ($(window).scrollTop() < (2527 + 1 * 1850)) {
+            // $('#yearnum').slideUp(200);
+            document.getElementById("yearnum").innerHTML = '2011';
+            // $('#yearnum').fadeIn(200);
+        } else if ($(window).scrollTop() < (2527 + 2 * 1850)) {
+            // $('#yearnum').slideUp(200);
+            document.getElementById("yearnum").innerHTML = '2012';
+            // $('#yearnum').fadeIn(200);
+        } else if ($(window).scrollTop() < (2527 + 3 * 1850)) {
+            // $('#yearnum').slideUp(200);
+            document.getElementById("yearnum").innerHTML = '2013';
+            // $('#yearnum').fadeIn(200);
+        } else if ($(window).scrollTop() < (2527 + 4 * 1850)) {
+            // $('#yearnum').slideUp(200);
+            document.getElementById("yearnum").innerHTML = '2014';
+            // $('#yearnum').fadeIn(200);
+        } else if ($(window).scrollTop() < (2527 + 5 * 1850)) {
+            // $('#yearnum').slideUp(200);
+            document.getElementById("yearnum").innerHTML = '2015';
+            // $('#yearnum').fadeIn(200);
+        } else if ($(window).scrollTop() < (2527 + 6 * 1850)) {
+            // $('#yearnum').slideUp(200);
+            document.getElementById("yearnum").innerHTML = '2016';
+            // $('#yearnum').fadeIn(200);
+        } else if ($(window).scrollTop() < (2527 + 7 * 1850)) {
+            // $('#yearnum').slideUp(200);
+            document.getElementById("yearnum").innerHTML = '2017';
+            // $('#yearnum').fadeIn(200);
+        } else if ($(window).scrollTop() < (2527 + 8 * 1850)) {
+            // $('#yearnum').slideUp(200);
+            document.getElementById("yearnum").innerHTML = '2018';
+            // $('#yearnum').fadeIn(200);
+        } else if ($(window).scrollTop() < (2527 + 9 * 1850)) {
+            // $('#yearnum').slideUp(200);
+            document.getElementById("yearnum").innerHTML = '2019';
+            // $('#yearnum').fadeIn(200);
+        }
+
+        console.log($(window).scrollTop());
+        // console.log(document.getElementById("_48").offsetTop);
+        // console.log($("#result").offset().top);
+
+        // console.log($('.row').scrollTop());
+        // console.log($('#_48').contentWindow.pageYOffset);
+        // document.getElementById("yearP").innerHTML = '2011';
+        if ($("#_48").scrollTop < 80) {
+            //change yes to no
+            document.getElementById("yearP").innerHTML = '2011';
+            // $('#yearP').innerHTML = '2011'
+            // $('#yearP').html('2011');
+        }
+    });
+
 });
-
-
 
 d3.csv("/data/topOne_final_links.csv").then(function (data) {
     var frame = d3.select('#result');
@@ -64,18 +102,20 @@ d3.csv("/data/topOne_final_links.csv").then(function (data) {
     for (let i = 0; i < data.length; i++) {
         if (i % 4 == 0) {
             $("#result")
-                .append('<div class="row" id="_' + i + '"><div class="col-2  months">' + data[i].month + ", " + data[i].year + '</div><div class="col-2 img-div art-div text-center"><div class="img-box"><img class="ppl-image" src="' + data[i].img + '" data-toggle="tooltip" data-html="true"  title="<b>' + data[i].name2 + '</b><hr>' + data[i].desc + '"></div></div><div class="col-2 img-div  text-center"><div class="img-box" data-toggle="tooltip" data-html="true"  title="<b>' + data[i + 1].name2 + '</b><hr>' + data[i + 1].desc + '"><img class="ppl-image" src="' + data[i + 1].img + '"></div></div><div class="col-2  img-div text-center"><div class="img-box"><img class="ppl-image" src="' + data[i + 2].img + '" data-toggle="tooltip" data-html="true" title="<b>' + data[i + 2].name2 + '</b><hr>' + data[i + 2].desc + '"></div></div><div class="col-2 img-div world-div text-center"><div class="img-box"><img class="ppl-image" src="' + data[i + 3].img + '" data-toggle="tooltip" data-html="true" title="<b>' + data[i + 3].name2 + '</b><hr>' + data[i + 3].desc + '"></div></div><div class="col-2 event"><p class="eventP">' + data[i + 3].event + '</p></div></div>');
+                .append('<div class="row overflow-hidden" id="_' + i + '"><div class="col-2  months">' + data[i].month + data[i].year + '</div><div class="col-2 img-div art-div text-center"><div class="img-box"><img class="ppl-image" src="' + data[i].img + '" data-toggle="tooltip" data-html="true"  title="<b>' + data[i].name2 + '</b><hr>' + data[i].desc + '"></div></div><div class="col-2 img-div tech-div text-center"><div class="img-box" data-toggle="tooltip" data-html="true"  title="<b>' + data[i + 1].name2 + '</b><hr>' + data[i + 1].desc + '"><img class="ppl-image" src="' + data[i + 1].img + '"></div></div><div class="col-2  img-div oped-div text-center"><div class="img-box"><img class="ppl-image" src="' + data[i + 2].img + '" data-toggle="tooltip" data-html="true" title="<b>' + data[i + 2].name2 + '</b><hr>' + data[i + 2].desc + '"></div></div><div class="col-2 img-div world-div text-center"><div class="img-box"><img class="ppl-image" src="' + data[i + 3].img + '" data-toggle="tooltip" data-html="true" title="<b>' + data[i + 3].name2 + '</b><hr>' + data[i + 3].desc + '"></div></div><div class="col-2 event"><p class="eventP">' + data[i + 3].event + '</p></div></div>');
         }
 
     }
 
     $(".months").each(function () {
-        // this.innerHTML = this.innerHTML.substring(0, 3).toUpperCase()
+        var yr = this.innerHTML.slice(-2);
+        var mn = this.innerHTML.substring(0, 3).toUpperCase()
+        this.innerHTML = mn + " '" + yr + ' <i class="fa fa-angle-double-right"></i>';
     });
 
     $(".eventP").each(function () {
         if (!this.innerHTML) {
-            this.remove();
+            this.parentElement.remove();
         }
     })
 })
