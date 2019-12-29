@@ -127,19 +127,25 @@
             Using the <a href="https://developer.nytimes.com/docs/archive-product/1/overview" target="_">New York Times
               Archive API</a>, I downloaded all articles from 2010 - 2019.
             I then
-            aggregated the number of citations for every person(recorded as "persons" tag in the NYT metadata) for every
+            aggregated the number of citations for every person (recorded as "persons" tag in the NYT metadata) for
+            every
             month, broken
             down by
             the news
-            category. Using the categories under "Section Name" and "News Desk", I r,
-            these and ranked people by number of citations each month across 4 categories - "Arts and Culture",
-            "OpEd/Opinion", "World" and "Busines and Technology." I then used the <a
-              href="https://www.mediawiki.org/wiki/API:Images" target="_">wikipedia API</a> to get image thumbnails and
+            category the article belonged to. I combined similar categories under "Section Name" and "News Desk", to get
+            the maximum number of citations, and finally ranked every person across these combined categories, namely -
+            "Arts and Culture",
+            "OpEd/Opinion", "World" and "Busines and Technology." After removing sitting US presidents from the
+            analysis, I filtered for the highest ranked people for every month in the last decade across these
+            categories. I then used the <a href="https://www.mediawiki.org/wiki/API:Images" target="_">Wikipedia API</a>
+            to get image thumbnails and
             description for
-            every personality.<br> Acknowledgements: Daniel Shiffman - <a
+            every shortlisted personality.<br> Acknowledgements: Daniel Shiffman - <a
               href="https://www.youtube.com/watch?v=IMne3LY4bks" target="_">Tutorials on using the New York Times
               API.</a>
-            <br>The Pudding articles have been a great inspiration about the world through the eyes of the US.<br><br>
+            <br><a href="https://pudding.cool/" target="_">The Pudding</a> articles have always been a great inspiration
+            and I've learnt a lot from their storytelling
+            techniques.<br><br>
             <span id="presis">
               *United
               States Presidents
