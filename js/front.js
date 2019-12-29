@@ -77,7 +77,7 @@ $(function () {
 });
 
 
-d3.csv("./data/topOne_final_links.csv").then(function (data) {
+d3.csv("./decade-in-review/data/topOne_final_links.csv").then(function (data) {
     var frame = d3.select('#result');
 
     $(function () {
