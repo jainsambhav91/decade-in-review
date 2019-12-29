@@ -154,7 +154,7 @@ INTRO SECTION
   height: 100%;
   color: #fff;
   background-color: #111;
-  min-height: 600px;
+  /* min-height: 600px; */
   padding: 0;
   background-size: cover;
   background-position: center center;
