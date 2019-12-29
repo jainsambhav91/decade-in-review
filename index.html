@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Decade in Review</title>
+  <title>Faces of the Decade</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="all,follow">
@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- <link rel="shortcut icon" href="img/favicon.png"> -->
   <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -35,12 +36,14 @@
         <div id="abstract-div">
           <p id="abstract">Discover the most captivating people of the 2010s. This interactive timeline allows you to
             scroll through the
-            faces of those most referenced in <img src="img/new-york-times-logo-black-and-white-2.png"
+            faces of those most referenced in <img id="nyt-logo" src="img/new-york-times-logo-black-and-white-2.png"
               style="height:25px;"> — excluding sitting US presidents* — across four key
-            categories:<br> <span style="color: #a5d5a7;">Arts & Culture,</span> <span style="color: #f490b1;">Business
-              & Tech.,</span> <span style="color: #70b2e2;">OpEd/Opinion,</span> and <span style="color: #c694c3;">World
+            categories:<br> <span style="color: #a5d5a7; font-weight: 600;">Arts & Culture,</span> <span
+              style="color: #f490b1;font-weight: 600;">Business
+              & Tech.,</span> <span style="color: #70b2e2;font-weight: 600;">OpEd/Opinion,</span> and <span
+              style="color: #c694c3; font-weight: 600;">World
               News.</span> <br>This timeline is generated from an analysis of all NYT articles from the past decade.
-            Navigate to the methodology.
+            <a href="#footer-area" style="color: #eee;">Navigate to the methodology.</a>
           </p>
         </div>
 
@@ -71,16 +74,16 @@
               <p id="yearnum">2010</p>
             </div>
             <div class="col-2 text-center categories" id="arts">
-              <p><span class="label" id="arts-text">ARTS & CULTURE</span></p>
+              <p id="arts-text"><span class="label">ARTS & CULTURE</span></p>
             </div>
             <div class="col-2 text-center categories" id="tech">
-              <p><span class="label" id="tech-text">BUSINESS & TECH.</span></p>
+              <p id="tech-text"><span class="label">BUSINESS & TECH.</span></p>
             </div>
             <div class="col-2 text-center categories" id="oped">
-              <p><span class="label" id="oped-text">OPED / OPINION</span></p>
+              <p id="oped-text"><span class="label">OPED / OPINION</span></p>
             </div>
             <div class="col-2 text-center categories" id="world">
-              <p><span class="label" id="world-text">WORLD</span></p>
+              <p id="world-text"><span class="label">WORLD</span></p>
             </div>
             <!-- <div class="col-8">
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -95,10 +98,10 @@
                   <a class="nav-item nav-link label" id="oped" href="#">OPED / OPINION</a>
                   <a class="nav-item nav-link label" id="world" href="#">WORLD</a>
                 </div>
-              </div> -->
+              </div>
+            </div> -->
           </div>
         </div>
-      </div>
       </div>
       </div>
     </nav>
@@ -109,6 +112,7 @@
     <div class="container" id="result">
     </div>
   </section>
+  <span id=navigate></span>
   <!-- Main Chart end-->
 
   <p class="text-center" id="dots">...</p>
@@ -118,29 +122,44 @@
       <div class="row">
         <div class="col-2"></div>
         <div class="col-8">
-          <p class="footer-title">DATA & METHODOLOGY</p>
+          <p class="footer-title">Data & Methodology</p>
           <p class="prose">
-            Using the New York Times Article Search API, I downloaded all articles from 2010 - 2019. I then aggregated
-            the
-            number of citations (recorded as "tags" in the NYT metadata) for every month, borken down by the category of
-            articles they belonged to. The New York Times has a "Section Name" categorisation and a "News Desk"
+            Using the <a href="https://developer.nytimes.com/docs/archive-product/1/overview" target="_">New York Times
+              Archive API</a>, I downloaded all articles from 2010 - 2019.
+            I then
+            aggregated the number of citations for every person(recorded as "persons" tag in the NYT metadata) for every
+            month, broken
+            down by
+            the news
+            category. The New York Times has a "Section Name" categorisation and a "News Desk"
             categorisation of articles. In each, there are multiple overlaps. For example - an article can be considered
             as
             a "Foreign" category under News Desk and "World" category under Section Name. I created a combination of
             both
             of
             these and ranked people by number of citations each month across 4 categories - "Arts and Culture",
-            "OpEd/Opinion", "World" and "Busines and Technology."
-            I then removed the tags that
-            Acknowledgements: Daniel Shiffman Tutorials on using the New York Times API.
-            Inspired by The Pudding and their article about the world through the eyes of the US.
+            "OpEd/Opinion", "World" and "Busines and Technology." I then used the <a
+              href="https://www.mediawiki.org/wiki/API:Images" target="_">wikipedia API</a> to get image thumbnails and
+            description for
+            every personality.<br> Acknowledgements: Daniel Shiffman - <a
+              href="https://www.youtube.com/watch?v=IMne3LY4bks" target="_">Tutorials on using the New York Times
+              API.</a>
+            <br>The Pudding articles have been a great inspiration about the world through the eyes of the US.<br><br>
+            <span id="presis">
+              *United
+              States Presidents
+              who
+              held office during
+              this decade are excluded to provide more nuanced cultural insights. In reality, sitting US presidents were
+              the most frequently referenced people in The NYT across all news categories, regardless of the newsworthy
+              events that occurred.</span>
           </p>
         </div>
         <div class="col-2"></div>
       </div>
     </div>
   </section>
-  <footer style="background-color: #111;">
+  <footer style="background-color: #ddd;">
     <div class="container">
       <div class="row copyright">
         <div class="col-md-12">

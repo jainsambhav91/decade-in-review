@@ -10,7 +10,49 @@ $(function () {
         } else {
             $('nav').removeClass('sticky');
         }
+
+        if ($(window).scrollTop() >= $('#navigate').offset().top) {
+            // $('nav').removeClass('sticky');
+        }
     });
+
+    $(document).scroll(function () {
+
+        if ($(window).scrollTop() < $('#_44').offset().top) {
+            document.getElementById("yearnum").innerHTML = '2010';
+        }
+        if ($(window).scrollTop() >= $('#_44').offset().top) {
+            console.log("test");
+            document.getElementById("yearnum").innerHTML = '2011';
+        }
+        if ($(window).scrollTop() >= $('#_96').offset().top) {
+            document.getElementById("yearnum").innerHTML = '2012';
+        }
+        if ($(window).scrollTop() >= $('#_144').offset().top) {
+            document.getElementById("yearnum").innerHTML = '2013';
+        }
+        if ($(window).scrollTop() >= $('#_192').offset().top) {
+            document.getElementById("yearnum").innerHTML = '2014';
+        }
+        if ($(window).scrollTop() >= $('#_240').offset().top) {
+            document.getElementById("yearnum").innerHTML = '2015';
+        }
+        if ($(window).scrollTop() >= $('#_288').offset().top) {
+            document.getElementById("yearnum").innerHTML = '2016';
+        }
+        if ($(window).scrollTop() >= $('#_336').offset().top) {
+            document.getElementById("yearnum").innerHTML = '2017';
+        }
+        if ($(window).scrollTop() >= $('#_384').offset().top) {
+            document.getElementById("yearnum").innerHTML = '2018';
+        }
+        if ($(window).scrollTop() >= $('#_432').offset().top) {
+            document.getElementById("yearnum").innerHTML = '2019';
+        }
+
+    });
+
+    // if()
 
     // ---------------------------------------------- //
     // Scroll Spy
@@ -32,65 +74,8 @@ $(function () {
         }, 1000);
         e.preventDefault();
     });
-
-    $(document).scroll(function () {
-
-        if ($(window).scrollTop() < 2527) {
-            document.getElementById("yearnum").innerHTML = '2010';
-        } else if ($(window).scrollTop() < (2527 + 1 * 1850)) {
-            // $('#yearnum').slideUp(200);
-            document.getElementById("yearnum").innerHTML = '2011';
-            // $('#yearnum').fadeIn(200);
-        } else if ($(window).scrollTop() < (2527 + 2 * 1850)) {
-            // $('#yearnum').slideUp(200);
-            document.getElementById("yearnum").innerHTML = '2012';
-            // $('#yearnum').fadeIn(200);
-        } else if ($(window).scrollTop() < (2527 + 3 * 1850)) {
-            // $('#yearnum').slideUp(200);
-            document.getElementById("yearnum").innerHTML = '2013';
-            // $('#yearnum').fadeIn(200);
-        } else if ($(window).scrollTop() < (2527 + 4 * 1850)) {
-            // $('#yearnum').slideUp(200);
-            document.getElementById("yearnum").innerHTML = '2014';
-            // $('#yearnum').fadeIn(200);
-        } else if ($(window).scrollTop() < (2527 + 5 * 1850)) {
-            // $('#yearnum').slideUp(200);
-            document.getElementById("yearnum").innerHTML = '2015';
-            // $('#yearnum').fadeIn(200);
-        } else if ($(window).scrollTop() < (2527 + 6 * 1850)) {
-            // $('#yearnum').slideUp(200);
-            document.getElementById("yearnum").innerHTML = '2016';
-            // $('#yearnum').fadeIn(200);
-        } else if ($(window).scrollTop() < (2527 + 7 * 1850)) {
-            // $('#yearnum').slideUp(200);
-            document.getElementById("yearnum").innerHTML = '2017';
-            // $('#yearnum').fadeIn(200);
-        } else if ($(window).scrollTop() < (2527 + 8 * 1850)) {
-            // $('#yearnum').slideUp(200);
-            document.getElementById("yearnum").innerHTML = '2018';
-            // $('#yearnum').fadeIn(200);
-        } else if ($(window).scrollTop() < (2527 + 9 * 1850)) {
-            // $('#yearnum').slideUp(200);
-            document.getElementById("yearnum").innerHTML = '2019';
-            // $('#yearnum').fadeIn(200);
-        }
-
-        console.log($(window).scrollTop());
-        // console.log(document.getElementById("_48").offsetTop);
-        // console.log($("#result").offset().top);
-
-        // console.log($('.row').scrollTop());
-        // console.log($('#_48').contentWindow.pageYOffset);
-        // document.getElementById("yearP").innerHTML = '2011';
-        if ($("#_48").scrollTop < 80) {
-            //change yes to no
-            document.getElementById("yearP").innerHTML = '2011';
-            // $('#yearP').innerHTML = '2011'
-            // $('#yearP').html('2011');
-        }
-    });
-
 });
+
 
 d3.csv("/data/topOne_final_links.csv").then(function (data) {
     var frame = d3.select('#result');

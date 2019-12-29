@@ -3,7 +3,7 @@ body {
     font-family: 'Nunito', sans-serif;
     /* font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif; */
     background-color: #eee;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
 }
 
 nav.navbar.sticky {
@@ -13,12 +13,38 @@ nav.navbar.sticky {
 }
 
 a {
-    color: #333333;
+    color: #ab0e25;
+    text-decoration: underline;
+
+}
+
+/* unvisited link */
+a:link {
+    color: #ab0e25;
+}
+
+/* visited link */
+a:visited {
+    color: #ab0e25;
+}
+
+/* mouse over link */
+a:hover {
+    color: #ab0e25;
+}
+
+/* selected link */
+a:active {
+    color: #ab0e25;
+}
+
+#presis {
+    font-size: 0.8rem;
 }
 
 
 .col-2 {
-    min-width: 141px;
+    /* min-width: 141px; */
 }
 
 
@@ -68,12 +94,19 @@ a {
 
 .img-box {
     height: 120px;
+    /* background-color: red; */
+    position: relative;
+    width: 100%;
+    /* padding-top: 100%; */
+    /* 1:1 Aspect Ratio */
 }
 
 
 
+
+
 .year {
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-weight: 700;
     /* background-color: #ddd; */
     height: 50px;
@@ -84,7 +117,7 @@ a {
 
 .categories {
     font-size: 0.75rem;
-    height: 50px;
+    /* height: 50px; */
 }
 
 .img-box {
@@ -92,9 +125,6 @@ a {
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(0, 0, 0, 0.04);
-    /* margin-left: 5px; */
-    /* margin-right: 5px; */
-    /* height: 130px; */
 }
 
 .img-box:hover {
@@ -151,41 +181,43 @@ hr {
 }
 
 
-#arts {
+#arts-text {
     border-radius: 15px;
     background-color: #a5d5a7;
     /* margin-left: 3px; */
     border: 3px solid #eee;
-    padding: 13px;
+    padding: 3px;
     color: white;
-    margin-bottom: 5px;
+    /* bottom: 0; */
+    /* position: absolute; */
+    /* margin-bottom: 5px; */
 }
 
-#tech {
+#tech-text {
     border-radius: 15px;
     background-color: #f490b1;
     border: 3px solid #eee;
-    padding: 13px;
+    padding: 3px;
     color: white;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
 }
 
-#oped {
+#oped-text {
     border-radius: 15px;
     background-color: #70b2e2;
     border: 3px solid #eee;
-    padding: 13px;
+    padding: 3px;
     color: white;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
 }
 
-#world {
+#world-text {
     border-radius: 15px;
     background-color: #c694c3;
     border: 3px solid #eee;
-    padding: 13px;
+    padding: 3px;
     color: white;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
 }
 
 .art-div {
@@ -220,7 +252,7 @@ hr {
     color: #333333;
     /* border-right: 0.5px solid #444; */
     /* border-left: 0.5px solid; */
-    /* padding: 0; */
+    padding: 0;
     /* margin-left: 5px; */
     /* margin-right: 5px; */
 }
@@ -315,6 +347,10 @@ hr {
     /* border-top: 1px solid #03388c; */
 }
 
+.website {
+    color: #ab0e25;
+}
+
 .prose {}
 
 
@@ -355,12 +391,14 @@ p.social a {
 p.social a i {
     /* vertical-align: bottom; */
     line-height: 38px;
-    color: #333333;
+    color: #ab0e25;
+    ;
 }
 
 p.social a.twitter {
     /* background-color: #aaa; */
-    /* color: #333333; */
+    color: #ab0e25;
+    ;
 
 }
 
@@ -369,15 +407,18 @@ p.social a.twitter {
 }
 
 #title {
-    font-size: 5.8rem;
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 5rem;
     color: #202e46;
     text-shadow: 0 0px 4px rgba(205, 205, 205, 1);
 }
 
 #subtitle {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    /* opacity: 0.8; */
     color: #202e46;
-    font-weight: 600;
+    /* font-weight: 600; */
     text-shadow: 0 0px 4px rgba(205, 205, 205, 1);
 }
 
@@ -406,9 +447,27 @@ p.social a.twitter {
     text-shadow: 0 0px 4px rgba(205, 205, 205, 1);
 }
 
+.footer-title {
+    font-family: 'PT Serif', serif;
+    font-size: 1.3rem;
+    padding-bottom: 20px;
+}
+
+.prose {
+    font-size: 0.9rem;
+}
+
 @media (max-width: 880px) {
     #title {
         font-size: 3.5rem;
+    }
+
+    #subtitle {
+        font-size: 1rem;
+    }
+
+    #nyt-logo {
+        /* height: 35px !important; */
     }
 
     #subtitle {
@@ -422,8 +481,133 @@ p.social a.twitter {
 
     #abstract {
         padding: 20px;
-        font-size: 0.8rem;
+        /* font-size: 1.5rem; */
         color: #eee;
-        line-height: 1.8rem;
+        /* line-height: 2.5rem; */
+    }
+
+    .img-box {
+        height: 110px;
+    }
+
+    /* #yearnum {
+        visibility: hidden;
+    }
+
+    .img-box {
+        height: 60px;
+    }
+
+    .months {
+        font-size: 0.5rem;
+        padding-top: 2.5rem;
+    }
+
+    .eventP {
+        font-size: 0.5rem;
+    } */
+}
+
+
+@media (max-width: 414px) {
+
+    #abstract-div {
+        margin-top: 25px;
+    }
+
+    #abstract {
+        font-size: 0.8rem;
+        line-height: 1.7rem;
+    }
+
+    #subtitle {
+        font-size: 1.5rem;
+    }
+
+    .content {
+        padding-top: 40px;
+    }
+
+    #name {
+        padding-top: 20px;
+    }
+
+    .eventP {
+        font-size: 0.5rem;
+        ;
+    }
+
+    .event {
+
+        border-top: 2px solid #202e46;
+    }
+
+    #nyt-logo {
+        height: 20px !important;
+    }
+
+    .col-2 {
+        /* -ms-flex: 0 0 19.5%; */
+        /* flex: 0 0 19.5%; */
+        /* max-width: 19.5%; */
+    }
+
+    .year {
+        /* display: none; */
+    }
+
+    #yearnum {
+        /* display: none; */
+        font-size: 1rem;
+    }
+
+    nav.navbar.sticky {
+        padding: 0;
+    }
+
+    nav.navbar {
+        padding: 0;
+    }
+
+    .img-box {
+        height: 65px;
+    }
+
+    .months {
+        font-size: 0.5rem;
+        padding-top: 2.5rem;
+    }
+
+    .categories {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .img-div {
+        /* border-right: 1px solid #444; */
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+        /* border-bottom: 4px solid #eee; */
+        z-index: 50;
+    }
+
+    .col-2 {
+        padding-right: 0.3rem;
+        padding-left: 0.3rem;
+    }
+
+    .most-disc {
+        font-size: 0.8rem;
+    }
+
+    #arts-text,
+    #tech-text,
+    #oped-text,
+    #world-text {
+        font-size: 0.5rem;
+    }
+
+    #arts-text {
+        font-size: 0.5rem;
     }
 }
