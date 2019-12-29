@@ -10,10 +10,6 @@ $(function () {
         } else {
             $('nav').removeClass('sticky');
         }
-
-        if ($(window).scrollTop() >= $('#navigate').offset().top) {
-            // $('nav').removeClass('sticky');
-        }
     });
 
     $(document).scroll(function () {

@@ -280,7 +280,7 @@ hr {
     background-color: #eee;
     font-weight: bold;
     color: #202e46;
-    opacity: 0.7;
+    /* opacity: 0.7; */
     /* vertical-align: middle; */
     /* top: 40%; */
     text-align: center;
