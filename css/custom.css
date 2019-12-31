@@ -125,10 +125,12 @@ a:active {
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(0, 0, 0, 0.04);
+
 }
 
 .img-box:hover {
-    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.24), 0 0 0 1px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.24), 0 0 0 0px rgba(0, 0, 0, 0.12);
+    transform: scale(1.03);
 }
 
 nav.nav-bar {
@@ -146,6 +148,13 @@ nav.nav-bar {
     width: 100%;
     cursor: pointer;
     /* max-height: 100% */
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.ppl-image:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
 }
 
 hr {
